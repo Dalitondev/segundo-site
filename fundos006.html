@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fundo com img</title>
+</head>
+    <style>
+        body{
+            height: 100vh;
+            /*background-color: black;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /*Shorthand do backgroud
+                color->img->position->repiater->attacment
+            */
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;/*a size não funciona no momento*/
+        }
+        main{
+            background-color: white;
+            max-width: 400px;
+            padding:10px;
+            margin: auto;
+            border: 1px solid black;
+            border-radius: 15px;
+        }
+    </style>
+<body>
+    <main>
+        <h1>
+            Texto com imagem fixa
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta quisquam voluptatum non perferendis maiores fugit quia magni reiciendis. Libero tempora, quaerat sequi reprehenderit dicta blanditiis odio quasi dolor qui? Amet.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio amet modi dolorum, deserunt enim nam exercitationem vel ipsam sequi, officiis ratione eligendi minima velit! Cum, molestiae est. Sint, recusandae eaque?
+            </p>
+        </h1>
+    </main>
+    
+</body>
+</html>
